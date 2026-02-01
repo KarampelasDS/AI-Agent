@@ -19,3 +19,10 @@ The agent is equipped with a set of tools to manage the coding environment:
 - **File Management:** Create or modify files as needed.
 
 The agent is designed to make the coding experience smoother and more efficient.
+
+## Environment Variables
+
+This project uses environment variables for configuration. You need to set the following variables in a `.env` file in the root directory:
+
+- `GEMINI_API_KEY`: Your API key for the Gemini service.
+- `WORKING_DIRECTORY`: The working directory for the AI agent. If not set, it defaults to `./calculator`, which contains a test project for the AI agent.
